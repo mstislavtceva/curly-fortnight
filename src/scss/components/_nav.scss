@@ -1,0 +1,21 @@
+.nav {
+  &__list {
+    display: flex;
+    align-items: center;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+  &__link {
+    display: inline-block;
+    padding: 15px 44px;
+    font-size: 14px;
+    line-height: 21.6px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: var(--dark-color-2);
+  }
+}
