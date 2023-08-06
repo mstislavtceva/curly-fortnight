@@ -1,0 +1,67 @@
+.products {
+  margin-top: -1px;
+
+  &__top {
+    padding: 59px 30px 58px 30px;
+    align-items: center;
+    justify-content: space-between;
+
+    &::before {
+      display: block;
+      content: "";
+      width: 225px;
+      height: 156px;
+      background-image: url("../../img/scorpions.svg");
+    }
+
+    &::after {
+      display: block;
+      content: "";
+      width: 225px;
+      height: 156px;
+      background-image: url("../../img/scorpions-2.svg");
+    }
+  }
+
+  &__title {
+    margin: 0;
+    max-width: 785px;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 72.576px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--dark-color);
+  }
+
+  &__bottom {
+    position: relative;
+    padding: 20px;
+    margin-top: -1px;
+  }
+
+  &__decoration {
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: calc(100% - 40px);
+
+    svg {
+      &:nth-child(2) {
+        transform: translateX(-15px);
+      }
+
+      &:nth-child(3) {
+        transform: translateX(10px);
+      }
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+  }
+}

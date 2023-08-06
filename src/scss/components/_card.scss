@@ -1,0 +1,34 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 22px;
+  padding-top: 100px;
+  min-height: 658px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--dark-color);
+  background-image: url("../img/product-bg.svg");
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &__taste {
+    margin-bottom: 14px;
+    font-size: 18px;
+    line-height: 28.08px;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 14px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38.016px;
+  }
+
+  &__image {
+  }
+}
