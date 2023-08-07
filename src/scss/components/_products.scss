@@ -37,7 +37,7 @@
 
   &__bottom {
     position: relative;
-    padding: 20px;
+    padding-top: 20px;
     margin-top: -1px;
   }
 
@@ -63,5 +63,28 @@
     display: flex;
     flex-wrap: wrap;
     gap: 23px;
+    padding: 0 20px;
+    padding-bottom: 20px;
+  }
+
+  &__ticker {
+    margin-top: -1px;
+  }
+
+  &__phrase {
+    padding: 24px 0;
+    font-size: 17px;
+    line-height: 25.92px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: var(--dark-color);
+  }
+
+  &__cover {
+    padding: 20px;
+
+    img {
+      width: 100%;
+    }
   }
 }
