@@ -1,0 +1,23 @@
+.ticker-bottom {
+  &__content {
+    font-size: 17px;
+    line-height: 25.92px;
+    letter-spacing: 0.5px;
+    color: var(--dark-color);
+  }
+}
+
+.ticker {
+  margin-top: -1px;
+  border-right: 1px solid var(--dark-color);
+  border-left: 1px solid var(--dark-color);
+  padding: 24px 0;
+}
+
+.ticker__img {
+  margin-right: 30px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
