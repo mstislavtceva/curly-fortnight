@@ -1,0 +1,16 @@
+.footer {
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 93px;
+    margin-top: -1px;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--dark-color);
+    background-color: var(--accent-color-2);
+  }
+}

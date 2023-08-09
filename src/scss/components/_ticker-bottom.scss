@@ -5,12 +5,15 @@
     letter-spacing: 0.5px;
     color: var(--dark-color);
   }
+
+  &__phrase {
+    border-right: 1px solid var(--dark-color);
+    border-left: 1px solid var(--dark-color);
+  }
 }
 
 .ticker {
   margin-top: -1px;
-  border-right: 1px solid var(--dark-color);
-  border-left: 1px solid var(--dark-color);
   padding: 24px 0;
 }
 
